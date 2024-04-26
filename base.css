@@ -1,0 +1,149 @@
+html,
+body {
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    width: 15%;
+    background-color: #87CEEB;
+    padding: 10px 20px 0px;
+}
+
+.menu ul li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    margin-bottom: 7px;
+}
+
+.menu ul {
+    padding: 0;
+    display: content;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.menu h1 {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.header {
+    height: calc(100vh - 350px);
+    background: no-repeat center/cover url(imagens/dermatologia-procedimento-estetico-rosto.jpg);
+
+}
+
+.header2 {
+    height: calc(100vh - 300px);
+    background: no-repeat center/cover url(imagens/header-contato.png);
+
+}
+
+.header3 {
+    height: calc(100vh - 300px);
+    background: no-repeat center/cover url(imagens/horario-atendimento.png);
+}
+
+.header4 {
+    height: calc(100vh - 300px);
+    background: no-repeat center/cover url(imagens/sobre.png)
+}
+
+.content {
+    color: rgb(29, 29, 29);
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    background-color: white;
+    min-height: 250px;
+    padding: 10px;
+
+}
+
+.content .form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: calc(100% - 500px);
+    border: solid #000000;
+    border-radius: 5px;
+}
+
+.content p {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+.footer {
+    color: rgb(0, 0, 0);
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #87CEEB;
+    min-height: 100px;
+    border-top: 5px solid #000000;
+    border-radius: 9px;
+
+
+}
+
+button:hover {
+    background-color: rgb(0, 0, 0);
+    border: solid rgb(255, 255, 255);
+    border-radius: 5px;
+    color: white;
+}
+
+.content p {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+    border: solid 1px black;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: rgb(180, 239, 239);
+}
+
+thead {
+    background-color: rgba(62, 59, 59, 0.537);
+    color: white;
+}
